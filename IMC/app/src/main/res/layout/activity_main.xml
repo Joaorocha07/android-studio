@@ -9,10 +9,14 @@
 
     <ScrollView
         android:id="@+id/scrollView3"
-        android:layout_width="413dp"
-        android:layout_height="74dp"
+        android:layout_width="417dp"
+        android:layout_height="67dp"
         android:background="#03A9F4"
-        tools:layout_editor_absoluteX="-1dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -51,21 +55,29 @@
         android:text="Peso"
         android:textAlignment="center"
         android:textColor="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView3"
-        tools:layout_editor_absoluteX="102dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editTextNumber5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="number"
-        android:text="Altura"
+        android:text="@string/txt_altura"
         android:textAlignment="center"
         android:textColor="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber4"
-        tools:layout_editor_absoluteX="102dp"
+        app:layout_constraintVertical_bias="0.206"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -75,18 +87,23 @@
         android:layout_marginTop="112dp"
         android:backgroundTint="#2196F3"
         android:text="Calcular"
-        app:layout_constraintEnd_toEndOf="@+id/chip3"
-        app:layout_constraintHorizontal_bias="0.307"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumber4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber5" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber5"
+        app:layout_constraintVertical_bias="0.369" />
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip"
         android:layout_width="55dp"
         android:layout_height="53dp"
         android:layout_marginTop="172dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView3"
-        tools:layout_editor_absoluteX="312dp"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.chip.Chip
@@ -94,8 +111,12 @@
         android:layout_width="55dp"
         android:layout_height="53dp"
         android:layout_marginTop="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView3"
-        tools:layout_editor_absoluteX="312dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView5"
@@ -104,8 +125,12 @@
         android:layout_marginTop="188dp"
         android:text="kg"
         android:textColor="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView3"
-        tools:layout_editor_absoluteX="329dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView6"
@@ -114,8 +139,12 @@
         android:layout_marginTop="316dp"
         android:text="cm"
         android:textColor="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView3"
-        tools:layout_editor_absoluteX="329dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Switch
         android:id="@+id/switch2"
@@ -123,8 +152,10 @@
         android:layout_height="wrap_content"
         android:text="Salvar"
         app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber5"
-        tools:layout_editor_absoluteX="161dp"
+        app:layout_constraintVertical_bias="0.613"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

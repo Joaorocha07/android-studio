@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">IMC</string>
+    <string name="txt_altura">Altura</string>
 </resources>
