@@ -9,7 +9,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f484b0-7510-4a1d-bd20-a9e386798b1a" name="Changes" comment="" />
+    <list default="true" id="50f484b0-7510-4a1d-bd20-a9e386798b1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../GERENCIADOR/app/src/main/res/drawable/criar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GERENCIADOR/app/src/main/res/drawable/editar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GERENCIADOR/app/src/main/res/drawable/excluir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GERENCIADOR/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GERENCIADOR/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
