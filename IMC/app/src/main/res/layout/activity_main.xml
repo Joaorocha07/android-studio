@@ -25,7 +25,7 @@
     </ScrollView>
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txttitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contextClickable="false"
@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.022" />
 
     <EditText
-        android:id="@+id/editTextNumber4"
+        android:id="@+id/editPeso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="180dp"
@@ -60,10 +60,11 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextNumber5"
+        android:id="@+id/editAltura"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -76,7 +77,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber4"
+        app:layout_constraintTop_toBottomOf="@+id/editPeso"
         app:layout_constraintVertical_bias="0.206"
         tools:ignore="MissingConstraints" />
 
@@ -90,7 +91,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber5"
+        app:layout_constraintTop_toBottomOf="@+id/editAltura"
         app:layout_constraintVertical_bias="0.369" />
 
     <com.google.android.material.chip.Chip
@@ -154,7 +155,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber5"
+        app:layout_constraintTop_toBottomOf="@+id/editAltura"
         app:layout_constraintVertical_bias="0.613"
         tools:ignore="MissingConstraints" />
 
