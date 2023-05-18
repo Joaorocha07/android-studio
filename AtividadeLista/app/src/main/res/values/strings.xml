@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">AtividadeLista</string>
+    <string name="hint_edit_titulo">hint_edit_titulo</string>
+    <string name="txt_hint_edit_primeiro_nome"></string>
+    <string name="hint_edit_sobrenome">hint_edit_sobrenome</string>
+    <string name="hint_edit_nome_do_curso">hint_edit_nome_do_curso</string>
+    <string name="hint_edit_telefone">hint_edit_telefone</string>
+    <string name="hint_edit_limpar">hint_edit_limpar</string>
+    <string name="hint_edit_salvar">hint_edit_salvar</string>
+    <string name="hint_edit_finalizar">hint_edit_finalizar</string>
+    <string name="Primeiro_Nome">txt_hint_edit_primeiro_nome</string>
+    <string name="aplica_o_lista_curso">Aplicação lista curso</string>
+    <string name="Primeiro_Nome_teste">Primeiro Nome_teste</string>
+    <string name="name">txt_hint_edit_PrimeiroNome</string>
+    <string name="txt_hint_edit_telefone">Telefone</string>
+    <string name="text_hint_edit_nome_do_curso">Nome do Curso</string>
+    <string name="text_hint_edit_sobrenome">Sobrenome</string>
+    <string name="text_hint_edit_primeiro_nome">Primeiro Nome</string>
 </resources>
